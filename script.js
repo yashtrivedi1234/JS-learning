@@ -296,10 +296,10 @@
 //   console.log(num);
 //   num++;
 // }
-let total = 0;
-let num = 1;
-while (num < 5) { // 1 to 5 1+2+3+4
-  total += num;
-  num++
-}
-console.log("Sum is " + total);
+// let total = 0;
+// let num = 1;
+// while (num < 5) { // 1 to 5 1+2+3+4
+//   total += num;
+//   num++
+// }
+// console.log("Sum is " + total);
