@@ -330,3 +330,20 @@
 // for (let i = 0; i < 6; i++) {
 //   console.log(i);
 // }
+
+// functions:
+// reuseable component () {} [] ()
+// function Greet(name) {
+//   console.log("Apko Shadi mai ana hoga, " + name);
+// }
+// Greet("OP!");
+
+// function add(a, b) {
+//   console.log("Sum of two numbers is", a + b);
+// }
+// add(1, 2);
+// return:- it stores a value
+function multiply(x, y) {
+  return x * y;
+}
+let result 
