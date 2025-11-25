@@ -343,7 +343,52 @@
 // }
 // add(1, 2);
 // return:- it stores a value
-function multiply(x, y) {
-  return x * y;
-}
-let result 
+// function multiply(x, y) {
+//   return x * y;
+// }
+// let result = multiply(4, 2);
+// console.log(result);
+// example1
+// function name() { // parameters
+//   console.log("Hii");
+// }
+// name(); //argument
+// exp2
+// function nameWithParams(name) {
+//   console.log("Your Lovely Name is", name);
+// }
+// nameWithParams("Naruto");
+// let arr = [1,2,3]
+// arr.reverse()
+// console.log(arr);
+
+// data types
+//  var let const
+// let and const
+
+// let arrow = () =>{
+//   console.log("Hii this is JS course");
+// }
+// arrow()
+// function name1(){
+//   console.log("Hey! This is a YT Course");
+// }
+// name1()
+// calculator example
+
+// function add(a, b) {
+//   return a + b;
+// }
+// let sum = add(1, 2);
+// console.log(sum);
+// add , sub, mul , div, modul %, expo **, /,//,% 
+// for (let index = 0; index < array.length; index++) {
+//   const element = array[index];
+// }
+
+// function test() {
+//   for (var i = 0; i < 3; i++) {
+//     setTimeout(() => console.log(i), 100);
+//   }
+// }
+// test();
