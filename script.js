@@ -303,3 +303,30 @@
 //   num++
 // }
 // console.log("Sum is " + total);
+// console.log("2"+ 5); // 5 change hua String
+// console.log("2"-5); //2 change num
+// console.log(typeof NaN); //obj
+
+// let arr = ["Simran"];
+// console.log(typeof arr); //obj
+
+// let obj = { name: "Simran" };
+// console.log(typeof obj); //obj
+
+// let simran;
+// console.log(typeof simran); //nodefined
+
+// let name = null;
+// console.log(typeof name); //obj
+
+// do:- work krna while:- conti
+// do while example for num
+// let i = 1;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 5);
+// example for a for loop
+// for (let i = 0; i < 6; i++) {
+//   console.log(i);
+// }
