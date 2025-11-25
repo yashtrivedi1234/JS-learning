@@ -25,7 +25,7 @@
 // //   console.log(name);
 // // }
 
-const nodemon = require("nodemon");
+// const nodemon = require("nodemon");
 
 // // number
 // // let num = 1.23;
@@ -246,14 +246,60 @@ const nodemon = require("nodemon");
 // console.log(!false);            // true
 
 // IN - for objects and arrays
-const user = { name: "Yash", age: 21 };
-let phone = { Model: "M Series" };
+// const user = { name: "Yash", age: 21 };
+// let phone = { Model: "M Series" };
 // console.log("name" in user); // true
 // console.log("email" in user); // false
-console.log("Model" in phone);
+// console.log("Model" in phone);
 
-const arr = [10, 20, 30];
+// const arr = [10, 20, 30];
 // console.log(0 in arr); // true (index exists)
 // console.log(5 in arr); // false (index not exists)
 // 1. what is server , localhost and hosting, web servers (Xamp, Apache) and apis testing(Postman or ThunderClient)
 // js:- in and or not comparison
+
+// undefined null NAN
+// let NumberOfPages = null;
+// console.log(NumberOfPages);
+// console.log(typeof NumberOfPages);
+// diff btn undef and null
+// let x;
+// console.log(x);
+// let simran = Number("ABC123");
+// console.log(simran); //nan
+// let DeciNumber = parseFloat("12"); //float : deci 1.2
+// console.log(DeciNumber); //12.0
+// let DeciNumber1 = parseInt("12.12");
+// console.log(DeciNumber1); //12
+
+// conditional statement
+// var temp = 40;
+// if (temp > 30) { //40>30
+//   console.log("Hii");
+// } else {
+//   console.log("bye");
+// }
+
+// while loop
+// let a = 0;
+// while (a <= 5) {
+//   console.log(a);
+//   a++;
+// }
+// for (let i = 0; i<5; i++) {
+//     console.log(i);
+// }
+// loops:- no. ko print series
+//  1 to 10
+// let num = 1;
+// while (num <= 20) {
+//   console.log(num);
+//   num++;
+// }
+let total = 0;
+let num = 1;
+while (num < 5) { // 1 to 5 1+2+3+4
+  total += num;
+  num++
+}
+console.log("Sum is " + total);
