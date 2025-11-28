@@ -392,3 +392,18 @@
 //   }
 // }
 // test();
+// node <path>
+// console.log("Hii");
+// console.log("Hey!");
+// console.log("Bye!");
+// nodemon.js 19 :- npm i nodemon node --watch script.js
+// console.log("Hii");
+// console.log("Hii");
+// console.log("Hii");
+// console.log("Hii");
+// console.log("Hii");
+// console.log("Hii");
+// console.log("Hii");
+// console.log("Hii");
+// 1. array and objects
+// 2. strings, date and time and math module 
