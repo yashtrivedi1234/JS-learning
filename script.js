@@ -381,7 +381,7 @@
 // }
 // let sum = add(1, 2);
 // console.log(sum);
-// add , sub, mul , div, modul %, expo **, /,//,% 
+// add , sub, mul , div, modul %, expo **, /,//,%
 // for (let index = 0; index < array.length; index++) {
 //   const element = array[index];
 // }
@@ -406,4 +406,129 @@
 // console.log("Hii");
 // console.log("Hii");
 // 1. array and objects
-// 2. strings, date and time and math module 
+// 2. strings, date and time and math module
+// jira jeera
+// array:-
+// let array = [1, 2, 3,4];
+// push :- last mai ek number add ()
+//  pop:- last wale no. ko delete kr dega
+// isindexof()
+// .at() []
+// array.pop()
+// console.log(array);
+// console.log(array.indexOf(2));
+// console.log(array[1]);
+
+// =================Array Start================
+
+// 1. length
+// .lenth is should be in the console.log bcz it is not a function
+// let arr = [1, 2, 3, 4];
+// console.log(arr.length);
+
+// 2. push
+// push:- push add the values at the end and we have to provide the data on it
+// let arr = ["Simran"];
+// arr.push("Queen")
+// console.log(arr);
+
+// 3. pop
+// pop:- it is used for removing a last element
+// let arr = [1, 2, 3];
+// arr.pop();
+// console.log(arr);
+
+// 4. fill
+// fill:- fill is used to convert to all the data from the array that u provided in the argument
+// let arr = [1, 2, 3, 4];
+// arr.fill(1);
+// console.log(arr);
+
+// 5. unshift
+// it adds a new data at the beginning of the array
+// let arr = [1,2,3,4]
+// arr.unshift(0)
+// console.log(arr);
+
+// 6. shift
+// it remove a new data at the beginning of the array
+// let arr = [1, 2, 3, 4];
+// arr.shift();
+// console.log(arr);
+
+// 7. splice
+// it adds / remove
+// let arr = [1, 2, 3, 4];
+// arr.splice(0, 1, "X", "Y");
+// console.log(arr);
+
+// 8. slice - copy
+// let arr = [10, 20, 30, 40];
+// let part = arr.slice(1, 3);
+// console.log(part);
+
+// 9. includes - it's checks the whether the element is exist or not
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(arr.includes(2));
+
+// 10. indexOf:-  it fetch the index from the element
+// let arr = [1, 2, 3];
+// console.log(arr.indexOf(2));
+
+// 11. at :- it is used for the reurn the number from the index
+// let arr = [10,20,30]
+// console.log(arr.at(1));
+
+// 12. sort:- it sort the data from the asc to des and by default it should be a post
+// let arr = [10, 1, 100, 12];
+// arr.sort((a, b) => a - b);
+// console.log(arr.sort());
+
+// 13. reverse :- it reverse a array
+// let arr = [10, 1, 100, 12];
+// arr.reverse()
+// console.log(arr);
+
+// 14. flat:- it also use for a reordering
+// let arr = [1, [2, [3]]];
+// console.log(arr.flat(2));
+
+// type conversion
+// 15. toString // pending State
+// let names = ["Simran", "Yash", "Queen"];
+// console.log(names.toString());
+// Output: "Simran,Yash,Queen"
+
+// 16. concation:- it is used for a combining a array with others
+// let a = [1, 2];
+// let b = [3, 4];
+// console.log(a.concat(b));
+
+// 17. join:- it is used for a join an array so we can convert into a string from an array
+// let arr = ["Snake", "OP"];
+// let result = arr.join(" , ");
+// console.log(result);
+
+// 18. split:- it is used for a spliting an elements from an array
+// let arr = ["Snake"];
+// let broken = arr[0].split("");
+// console.log(broken);
+
+// 19. map:- map function is used mainly for a
+// let number = [1, 2, 3, 4];
+// let doubled = number.map((n) => {
+//   return n * 2;
+// });
+// console.log(doubled);
+
+// 20. filter:- it filter the data from the array as per the condition
+// let arr = [1, 2, 3, 4];
+// let num = arr.filter((n) => n < 2);
+// console.log(num);
+
+// 21. reduce
+// let arr = [1, 2, 3, 4];
+// let op = arr.reduce((a, b) => a + b);
+// console.log(op);
+
+// map, filter, reduce, includes, sort ,reverse, push/pop , splice/slice, unshift/shift
