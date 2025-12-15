@@ -532,3 +532,61 @@
 // console.log(op);
 
 // map, filter, reduce, includes, sort ,reverse, push/pop , splice/slice, unshift/shift
+// function declaration:- named function
+// function expression:- anonymous function
+
+// 1. length
+// let arr = [1, 2, 3, 4];
+// console.log(arr.length);
+
+// 2. push
+// let arr1 = ["Simran"];
+// arr1.push("Ji");
+// console.log(arr1);
+
+// 3. pop
+// let arr2 = [1, 2, 3];
+// arr2.pop();
+// console.log(arr2);
+
+// 4. fill
+// let arr3 = [1, 2, 3, 4];
+// arr3.fill(1);
+// console.log(arr3);
+
+// 5. unshift
+// let arr4 = [1, 2, 3, 4];
+// arr4.unshift(null);
+// console.log(arr4);
+
+// 6. shift
+// let arr5 = [1, 2, 3, 4];
+// arr5.shift();
+// console.log(arr5);
+
+// 7. splice
+// let arr6 = [1, 2, 3, 4];
+// arr6.splice(0, 1, "X", "Y");
+// console.log(arr6);
+
+// 8. slice
+// let arr7 = [10, 20, 30, 40];
+// let part = arr7.slice(1, 3);
+// console.log(part);
+
+// 9. includes
+// let arr8 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(arr8.includes(2));
+
+// 10. indexOf
+// let arr9 = [10, 20, 30];
+// console.log(arr9.indexOf(20));
+
+// 11. at
+// let arr10 = [10, 20, 30];
+// console.log(arr10.at(1));
+
+// 12. reverse
+let arr11 = [10, 1, 100, 12];
+arr11.reverse();
+console.log(arr11);
